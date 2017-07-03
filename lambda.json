@@ -3,12 +3,12 @@
   "description": "Notify my aws cost by daily",
   "region": "us-west-2",
   "handler": "lambda_function.lambda_handler",
-  "role": "arn:aws:iam::255118296686:user/imaizm",
+  "role": "arn:aws:iam::255118296686:role/service-role/lambda_exec_role",
   "timeout": 300,
   "memory": 128,
   "variables":
     {
-      "slackPostURL":"https://hooks.slack.com/services/XXX",
-      "slackChannel":"#XXX"
+      "hipchatRoomId":"3398903",
+      "hipchatApiToken":"XXX"
     }
 }

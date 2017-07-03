@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# aws lambda
+.lambda_uploader_temp
+lambda_function.zip
