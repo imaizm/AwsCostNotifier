@@ -8,7 +8,7 @@
   "memory": 128,
   "variables":
     {
-      "hipchatRoomId":"3398903",
-      "hipchatApiToken":"XXX"
+      "slackPostURL":"https://hooks.slack.com/services/XXX/YYY/ZZZ",
+      "slackChannel":"#XXX"
     }
 }
